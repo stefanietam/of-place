@@ -1,0 +1,143 @@
+@font-face {
+    font-family: neuehaas;
+    src: url(fonts/NeueHaasGroteskRegular.ttf);
+}
+
+body {
+    background-color:black;
+    margin: 0px;
+    height: 100%;
+    text-align: center;
+}
+
+.title {
+    position:fixed;
+    top: 13px;
+    left: 45.95%;
+    font-size: 1.5vw;
+    color:white;
+    text-align: center;
+    font-family: neuehaas;
+    letter-spacing: 0.1vh;
+}
+
+.footer {
+
+    font-family: neuehaas;
+    color: white;
+    font-size: 1.5vw;
+}
+
+
+
+#screenNum {
+    
+    width:100%;
+    position:fixed;
+    top:13px;
+    text-align:center;
+}
+
+#location {
+    width:100%;
+    position:fixed;
+    bottom:13px;
+    text-align:center;
+}
+
+#restart {
+    width:100%;
+    position:fixed;
+    bottom:13px;
+    text-align:center;
+    display:none;
+}
+
+.wrapper {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 37.8vh 1fr 37.8vh;
+}
+
+img {
+    width: 100%;
+    
+}
+
+img, #type, #city:hover{
+    cursor:pointer;
+}
+
+.images {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap:20px;
+    text-align: center;
+    
+}
+
+.hover{
+    width:300px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    outline: 1px solid white;
+}
+
+#hover12, #hover3, #hover45, #hover67, #hover8, #hover910 {
+    display:none;
+    left:0px;
+    top:0px;
+}
+
+.middle{
+    font-family: neuehaas;
+    color: white;
+    font-size: 1.5vw;
+    align-self: center;
+    justify-content: center;
+    height:100%;
+   
+}
+
+#clicked{
+     width:5.75vw;
+}
+
+#selected, #type, #city {
+    display:none;
+}
+
+#trespass, #fly, #die, #compete, #wander, #work, #graze, #drive, #waste, #park, #play, #swim, #sail, #home, #ride {
+    display:none;
+}
+
+#big{
+    width:34%;
+    position:fixed;
+    left:33%;
+    top:20%;
+    display:none;
+    outline: 1px solid white;
+    
+}
+
+#bigText{
+    color:white;
+    font-family: neuehaas;
+    font-size: 15px;
+    width:17%;
+    position:fixed;
+    left:20px;
+    bottom:20px;
+    display:none;
+    text-align: left;
+    
+}
+
+a{
+    color:white;
+}
+
+
