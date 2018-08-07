@@ -47,7 +47,7 @@ $(document).ready(function() {
 
     //arrays of text and images
     
-    var typeArray = ["/_1.jpg", "/_2.jpg", "/airport1.jpg", "/airport2.jpg", "/cemetery1.jpg", "/cemetery2.jpg", "/court1.jpg", "/court2.jpg", "/downtown1.jpg", "/downtown2.jpg", "/factory1.jpg", "/factory2.jpg", "/farm1.jpg", "/farm2.jpg", "/highway1.jpg", "/highway2.jpg", "/junkyard1.jpg", "/junkyard2.jpg", "/parking1.jpg", "/parking2.jpg", "/play1.jpg", "/play2.jpg", "/pool1.jpg", "/pool2.jpg", "/ship1.jpg", "/ship2.jpg", "/suburb1.jpg", "/suburb2.jpg", "/train1.jpg", "/train2.jpg"];
+    var typeArray = ["/hi1.jpg", "/hi2.jpg", "/airport1.jpg", "/airport2.jpg", "/cemetery1.jpg", "/cemetery2.jpg", "/court1.jpg", "/court2.jpg", "/downtown1.jpg", "/downtown2.jpg", "/factory1.jpg", "/factory2.jpg", "/farm1.jpg", "/farm2.jpg", "/highway1.jpg", "/highway2.jpg", "/junkyard1.jpg", "/junkyard2.jpg", "/parking1.jpg", "/parking2.jpg", "/play1.jpg", "/play2.jpg", "/pool1.jpg", "/pool2.jpg", "/ship1.jpg", "/ship2.jpg", "/suburb1.jpg", "/suburb2.jpg", "/train1.jpg", "/train2.jpg"];
     
     var cityArray = ["images/baghdad", "images/bangkok", "images/istanbul", "images/london", "images/mumbai", "images/pyongYang", "images/saintPetersburg", "images/saoPaulo", "images/shenZhen", "images/tianJin", "images/berlin", "images/busan", "images/capetown", "images/losAngeles", "images/madrid", "images/mexicoCity", "images/nairobi", "images/newYork", "images/singapore", "images/yokohama"]
     
