@@ -14,18 +14,18 @@ body {
     position:fixed;
     top: 13px;
     left: 45.95%;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     color:white;
     text-align: center;
     font-family: neuehaas;
     letter-spacing: 0.1vh;
 }
 
-.footer {
+.footer, #restart {
 
     font-family: neuehaas;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
 }
 
 
@@ -94,7 +94,7 @@ img, #type, #city:hover{
 .middle{
     font-family: neuehaas;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     align-self: center;
     justify-content: center;
     height:100%;
@@ -114,20 +114,25 @@ img, #type, #city:hover{
 }
 
 #big{
-    width:34%;
-    position:fixed;
-    left:33%;
-    top:20%;
+     max-height: 100%;  
+    max-width: 100%; 
+    width:26vw;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
     display:none;
-    outline: 1px solid white;
     
 }
 
 #bigText{
     color:white;
     font-family: neuehaas;
-    font-size: 15px;
-    width:17%;
+    font-size: 1.25vw;
+    width:25%;
     position:fixed;
     left:20px;
     bottom:20px;
@@ -138,6 +143,94 @@ img, #type, #city:hover{
 
 a{
     color:white;
+    background-color: black;
+    text-decoration: none;
 }
+
+
+#homeIMG{
+   
+    max-height: 100%;  
+    max-width: 100%; 
+    width:13vw;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+#titlebig {
+    position:absolute;
+    color:white;
+    font-family: neuehaas;
+    font-size: 9.5vw;
+    width:100%;
+    height: 100%;
+    line-height: 100vh;
+    text-align: center;
+}
+
+.homeWrap{
+    color:white;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:33vh 33vh 33vh;
+    
+}
+
+.quote{
+    width:100%;
+    height: 100%;
+    top:16vh;
+    line-height: 1.5vw;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    text-align: center;
+    font-family: neuehaas;
+    font-size: 1.25vw;
+    text-decoration: none;
+}
+
+#bigTextVerb1 {
+    position:absolute;
+    color:white;
+    font-family: neuehaas;
+    font-size: 5vw;
+    width:100%;
+    height: 100%;
+    line-height: 100vh;
+    text-align: center;
+    display: none;  
+}
+
+#endtop{
+    position:absolute;
+    color:white;
+    font-family: neuehaas;
+    font-size: 1.25vw;
+    width: 40%;
+    left: 30%;
+    top:13%;
+    display:none;
+}
+
+#endbottom{
+    position:absolute;
+    color:white;
+    font-family: neuehaas;
+    font-size: 1.25vw;
+    width: 30%;
+    left: 32%;
+    bottom:13%;
+    display:none;
+}
+
+
+
 
 
