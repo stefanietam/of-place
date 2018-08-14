@@ -56,7 +56,7 @@ body {
 .wrapper {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 37.8vh 1fr 37.8vh;
+    grid-template-rows: 37.8vh 1fr 37.8vh; 
 }
 
 img {
@@ -229,6 +229,116 @@ a{
     bottom:13%;
     display:none;
 }
+
+.infobits{
+    color:white;
+    font-family: neuehaas;
+    font-size: 0.75vw;
+    position:fixed;
+    top:13px;
+    
+}
+
+.downloadbits{
+    color:white;
+    font-family: neuehaas;
+    font-size: 0.75vw;
+    position:fixed;
+    bottom:13px;
+    display:none;
+    
+}
+
+#aboutProj{
+    right: 17px;
+    text-align: left;
+}
+
+#aboutMe{
+    right: 8.2vw;
+    text-align: right;
+}
+
+#contribute{
+    left: 6.5vw;
+    text-align: right;
+}
+
+#book{
+    left:17px;
+}
+
+#exhibition{
+    left:6.5vw;
+}
+
+#poster{
+    left:17px;
+}
+
+#digital{
+    right:17px;
+}
+
+.modal, .modal2, .modal3 {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .5);
+        opacity: 0;
+        visibility: hidden;
+    }
+    .modal-content, .modal-content2, .modal-content3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 0rem 1.5rem;
+        width: 55rem;
+        font-size: 20px;
+        color:black;
+        text-align: left;
+    }
+    .close-button, .close-button2, .close-button3{
+        float: right;
+        width: 1.5rem;
+        line-height: 3.5rem;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .show-modal {
+        opacity: 1;
+        visibility: visible;
+}
+
+ #aboutMe:hover, #aboutProj:hover, #contribute:hover, #book:hover {
+        cursor:help;
+        }
+
+#soon{
+    color:white;
+    padding-top: 13px;
+    font-family: neuehaas;
+    
+    
+}
+
+#email{
+    color:black;
+    background-color:white;
+    border-bottom: solid 1px black;
+}
+
+
+
+
+
+
+
 
 
 

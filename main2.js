@@ -1,5 +1,59 @@
 $(document).ready(function() {
     
+    var modal = document.querySelector(".modal");
+    var trigger = document.querySelector(".trigger");
+    var closeButton = document.querySelector(".close-button");
+
+    function toggleModal() {
+        modal.classList.toggle("show-modal");
+    }
+
+    function windowOnClick(event) {
+        if (event.target === modal) {
+            toggleModal();
+        }
+    }
+
+    trigger.addEventListener("click", toggleModal);
+    closeButton.addEventListener("click", toggleModal);
+    window.addEventListener("click", windowOnClick);
+    
+    var modal2 = document.querySelector(".modal2");
+    var trigger2 = document.querySelector(".trigger2");
+    var closeButton2 = document.querySelector(".close-button2");
+
+    function toggleModal2() {
+        modal2.classList.toggle("show-modal");
+    }
+
+    function windowOnClick2(event) {
+        if (event.target === modal2) {
+            toggleModal2();
+        }
+    }
+
+    trigger2.addEventListener("click", toggleModal2);
+    closeButton2.addEventListener("click", toggleModal2);
+    window.addEventListener("click", windowOnClick2);
+    
+    var modal3 = document.querySelector(".modal3");
+    var trigger3 = document.querySelector(".trigger3");
+    var closeButton3 = document.querySelector(".close-button3");
+
+    function toggleModal3() {
+        modal3.classList.toggle("show-modal");
+    }
+
+    function windowOnClick3(event) {
+        if (event.target === modal3) {
+            toggleModal3();
+        }
+    }
+
+    trigger3.addEventListener("click", toggleModal3);
+    closeButton3.addEventListener("click", toggleModal3);
+    window.addEventListener("click", windowOnClick3);
+    
     //saved texts and images for final output
     
     //for text
@@ -823,7 +877,7 @@ $(document).ready(function() {
             if(outOfTen>10){
               $("#screenNum").empty().append(bigCount+" OUT OF 10");
               $("#big").attr("src", savedImage1);    
-              $("#bigText, #big, #restart, #bigTextVerb1, #endtop, #endbottom").show();    
+              $("#bigText, #big, #restart, #bigTextVerb1, #endtop, #endbottom, .downloadbits").show();    
               $("#location, .wrapper").hide();
               $("#verb1").empty().append(savedVerb1);
               $("#verb2").empty().append(savedVerb2);
@@ -1602,7 +1656,7 @@ $(document).ready(function() {
             if(outOfTen>10){
               $("#screenNum").empty().append(bigCount+" OUT OF 10");
               $("#big").attr("src", savedImage1);    
-              $("#bigText, #big, #restart, #bigTextVerb1, #endtop, #endbottom").show();
+              $("#bigText, #big, #restart, #bigTextVerb1, #endtop, #endbottom, .downloadbits").show();
               $("#location, .wrapper").hide();
               $("#verb1").empty().append(savedVerb1);
               $("#verb2").empty().append(savedVerb2);
