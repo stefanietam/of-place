@@ -188,161 +188,161 @@ $(document).ready(function() {
     $("#1").hover(function() {
           $("#hover12").show();
           $("#hover12").attr("src", img1);
-          $("#1").attr("style", "outline:1px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
           $("#hover3, #hover45, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity1]);
        },
     function(){
         if(selectedCity==1){
-          $("#1").attr("style", "outline:1px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
         } else {
-          $("#1").attr("style", "outline:0px solid white;");  
+          $("#1").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#2").hover(function() {
           $("#hover12").show();
           $("#hover12").attr("src", img2);
-          $("#2").attr("style", "outline:1px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
           $("#hover3, #hover45, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity2]);
        },
     function(){
           if(selectedCity==2){
-          $("#2").attr("style", "outline:1px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
         } else {
-          $("#2").attr("style", "outline:0px solid white;");  
+          $("#2").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#3").hover(function() {
           $("#hover3").show();
           $("#hover3").attr("src", img3);
-          $("#3").attr("style", "outline:1px solid white;");
+          $("#3").attr("style", "outline:1px solid black;");
           $("#hover12, #hover45, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity3]);
        },
     function(){
           if(selectedCity==3){
-          $("#3").attr("style", "outline:1px solid white;");
+          $("#3").attr("style", "outline:1px solid black;");
         } else {
-          $("#3").attr("style", "outline:0px solid white;");  
+          $("#3").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#4").hover(function() {
           $("#hover45").show();
           $("#hover45").attr("src", img4);
-          $("#4").attr("style", "outline:1px solid white;");
+          $("#4").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity4]);
        },
     function(){
           if(selectedCity==4){
-          $("#4").attr("style", "outline:1px solid white;");
+          $("#4").attr("style", "outline:1px solid black;");
         } else {
-          $("#4").attr("style", "outline:0px solid white;");  
+          $("#4").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#5").hover(function() {
           $("#hover45").show();
           $("#hover45").attr("src", img5);
-          $("#5").attr("style", "outline:1px solid white;");
+          $("#5").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity5]);
        },
     function(){
           if(selectedCity==5){
-          $("#5").attr("style", "outline:1px solid white;");
+          $("#5").attr("style", "outline:1px solid black;");
         } else {
-          $("#5").attr("style", "outline:0px solid white;");  
+          $("#5").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#6").hover(function() {
           $("#hover67").show();
           $("#hover67").attr("src", img6);
-          $("#6").attr("style", "outline:1px solid white;");
+          $("#6").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity6]);
        },
     function(){
           if(selectedCity==6){
-          $("#6").attr("style", "outline:1px solid white;");
+          $("#6").attr("style", "outline:1px solid black;");
         } else {
-          $("#6").attr("style", "outline:0px solid white;");  
+          $("#6").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#7").hover(function() {
           $("#hover67").show();
           $("#hover67").attr("src", img7);
-          $("#7").attr("style", "outline:1px solid white;");
+          $("#7").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity7]);
        },
     function(){
           if(selectedCity==7){
-          $("#7").attr("style", "outline:1px solid white;");
+          $("#7").attr("style", "outline:1px solid black;");
         } else {
-          $("#7").attr("style", "outline:0px solid white;");  
+          $("#7").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#8").hover(function() {
           $("#hover8").show();
           $("#hover8").attr("src", img8);
-          $("#8").attr("style", "outline:1px solid white;");
+          $("#8").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover67, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity8]);
        },
     function(){
           if(selectedCity==8){
-          $("#8").attr("style", "outline:1px solid white;");
+          $("#8").attr("style", "outline:1px solid black;");
         } else {
-          $("#8").attr("style", "outline:0px solid white;");  
+          $("#8").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#9").hover(function() {
           $("#hover910").show();
           $("#hover910").attr("src", img9);
-          $("#9").attr("style", "outline:1px solid white;");
+          $("#9").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover67, #hover8").hide();
           $("#location").empty().append(cityNameArray[randomCity9]);
        },
     function(){
           if(selectedCity==9){
-          $("#9").attr("style", "outline:1px solid white;");
+          $("#9").attr("style", "outline:1px solid black;");
         } else {
-          $("#9").attr("style", "outline:0px solid white;");  
+          $("#9").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#10").hover(function() {
           $("#hover910").show();
           $("#hover910").attr("src", img10);
-          $("#10").attr("style", "outline:1px solid white;");
+          $("#10").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover67, #hover8").hide();
           $("#location").empty().append(cityNameArray[randomCity10]);
        },
     function(){
           if(selectedCity==10){
-          $("#10").attr("style", "outline:1px solid white;");
+          $("#10").attr("style", "outline:1px solid black;");
         } else {
-          $("#10").attr("style", "outline:0px solid white;");  
+          $("#10").attr("style", "outline:0px solid black;");  
         }
     });
              $("#1").click(function() {
           $("#clicked").attr("src", img1);
           $("#selected, #type, #city").show();
           $("#type").empty().append(typeButtonArray[randomType1]);
-          $("#1").attr("style", "outline:1px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
           selectedCity = 1;
           selectedType = 1;
-          $("#1").attr("style", "outline:1px solid white;");
-          $("#2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
+          $("#2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
           
        });
     
@@ -350,11 +350,11 @@ $(document).ready(function() {
           $("#clicked").attr("src", img2);
           $("#selected, #type, #city").show();
           $("#type").empty().append(typeButtonArray[randomType2]);
-          $("#2").attr("style", "outline:1px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
           selectedCity = 2;
           selectedType = 2;
-          $("#2").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#3").click(function() {
@@ -363,8 +363,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType3]);
           selectedCity = 3;
           selectedType = 3;
-          $("#3").attr("style", "outline:1px solid white;");
-          $("#1, #2, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#3").attr("style", "outline:1px solid black;");
+          $("#1, #2, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#4").click(function() {
@@ -373,8 +373,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType4]);
           selectedCity = 4;
           selectedType = 4;
-          $("#4").attr("style", "outline:1px solid white;");
-          $("#1, #3, #2, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#4").attr("style", "outline:1px solid black;");
+          $("#1, #3, #2, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
         
        });
     
@@ -384,8 +384,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType5]);
           selectedCity = 5;
           selectedType = 5;
-          $("#5").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#5").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#6").click(function() {
@@ -394,8 +394,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType6]);
           selectedCity = 6;
           selectedType = 6;
-          $("#6").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #5, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#6").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #5, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#7").click(function() {
@@ -404,8 +404,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType7]);
           selectedCity = 7;
           selectedType = 7;
-          $("#7").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #5, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#7").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #5, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#8").click(function() {
@@ -414,8 +414,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType8]);
           selectedCity = 8;
           selectedType = 8;
-          $("#8").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #5, #9, #10").attr("style", "outline:0px solid white;");
+          $("#8").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #5, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#9").click(function() {
@@ -424,8 +424,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType9]);
           selectedCity = 9;
           selectedType = 9;
-          $("#9").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #8, #5, #10").attr("style", "outline:0px solid white;");
+          $("#9").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #8, #5, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#10").click(function() {
@@ -434,8 +434,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType10]);
           selectedCity = 10;
           selectedType = 10;
-          $("#10").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #8, #9, #5").attr("style", "outline:0px solid white;");
+          $("#10").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #8, #9, #5").attr("style", "outline:0px solid black;");
        });
         
             if(selectedType==1){
@@ -902,7 +902,7 @@ $(document).ready(function() {
                 
               
             }
-            $("#1, #2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+            $("#1, #2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
             $("#selected, #type, #city").hide();
             
     });
@@ -979,161 +979,161 @@ $(document).ready(function() {
     $("#1").hover(function() {
           $("#hover12").show();
           $("#hover12").attr("src", img1);
-          $("#1").attr("style", "outline:1px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
           $("#hover3, #hover45, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity1]);
        },
     function(){
         if(selectedCity==1){
-          $("#1").attr("style", "outline:1px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
         } else {
-          $("#1").attr("style", "outline:0px solid white;");  
+          $("#1").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#2").hover(function() {
           $("#hover12").show();
           $("#hover12").attr("src", img2);
-          $("#2").attr("style", "outline:1px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
           $("#hover3, #hover45, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity2]);
        },
     function(){
           if(selectedCity==2){
-          $("#2").attr("style", "outline:1px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
         } else {
-          $("#2").attr("style", "outline:0px solid white;");  
+          $("#2").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#3").hover(function() {
           $("#hover3").show();
           $("#hover3").attr("src", img3);
-          $("#3").attr("style", "outline:1px solid white;");
+          $("#3").attr("style", "outline:1px solid black;");
           $("#hover12, #hover45, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity3]);
        },
     function(){
           if(selectedCity==3){
-          $("#3").attr("style", "outline:1px solid white;");
+          $("#3").attr("style", "outline:1px solid black;");
         } else {
-          $("#3").attr("style", "outline:0px solid white;");  
+          $("#3").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#4").hover(function() {
           $("#hover45").show();
           $("#hover45").attr("src", img4);
-          $("#4").attr("style", "outline:1px solid white;");
+          $("#4").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity4]);
        },
     function(){
           if(selectedCity==4){
-          $("#4").attr("style", "outline:1px solid white;");
+          $("#4").attr("style", "outline:1px solid black;");
         } else {
-          $("#4").attr("style", "outline:0px solid white;");  
+          $("#4").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#5").hover(function() {
           $("#hover45").show();
           $("#hover45").attr("src", img5);
-          $("#5").attr("style", "outline:1px solid white;");
+          $("#5").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity5]);
        },
     function(){
           if(selectedCity==5){
-          $("#5").attr("style", "outline:1px solid white;");
+          $("#5").attr("style", "outline:1px solid black;");
         } else {
-          $("#5").attr("style", "outline:0px solid white;");  
+          $("#5").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#6").hover(function() {
           $("#hover67").show();
           $("#hover67").attr("src", img6);
-          $("#6").attr("style", "outline:1px solid white;");
+          $("#6").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity6]);
        },
     function(){
           if(selectedCity==6){
-          $("#6").attr("style", "outline:1px solid white;");
+          $("#6").attr("style", "outline:1px solid black;");
         } else {
-          $("#6").attr("style", "outline:0px solid white;");  
+          $("#6").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#7").hover(function() {
           $("#hover67").show();
           $("#hover67").attr("src", img7);
-          $("#7").attr("style", "outline:1px solid white;");
+          $("#7").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity7]);
        },
     function(){
           if(selectedCity==7){
-          $("#7").attr("style", "outline:1px solid white;");
+          $("#7").attr("style", "outline:1px solid black;");
         } else {
-          $("#7").attr("style", "outline:0px solid white;");  
+          $("#7").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#8").hover(function() {
           $("#hover8").show();
           $("#hover8").attr("src", img8);
-          $("#8").attr("style", "outline:1px solid white;");
+          $("#8").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover67, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity8]);
        },
     function(){
           if(selectedCity==8){
-          $("#8").attr("style", "outline:1px solid white;");
+          $("#8").attr("style", "outline:1px solid black;");
         } else {
-          $("#8").attr("style", "outline:0px solid white;");  
+          $("#8").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#9").hover(function() {
           $("#hover910").show();
           $("#hover910").attr("src", img9);
-          $("#9").attr("style", "outline:1px solid white;");
+          $("#9").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover67, #hover8").hide();
           $("#location").empty().append(cityNameArray[randomCity9]);
        },
     function(){
           if(selectedCity==9){
-          $("#9").attr("style", "outline:1px solid white;");
+          $("#9").attr("style", "outline:1px solid black;");
         } else {
-          $("#9").attr("style", "outline:0px solid white;");  
+          $("#9").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#10").hover(function() {
           $("#hover910").show();
           $("#hover910").attr("src", img10);
-          $("#10").attr("style", "outline:1px solid white;");
+          $("#10").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover67, #hover8").hide();
           $("#location").empty().append(cityNameArray[randomCity10]);
        },
     function(){
           if(selectedCity==10){
-          $("#10").attr("style", "outline:1px solid white;");
+          $("#10").attr("style", "outline:1px solid black;");
         } else {
-          $("#10").attr("style", "outline:0px solid white;");  
+          $("#10").attr("style", "outline:0px solid black;");  
         }
     });
              $("#1").click(function() {
           $("#clicked").attr("src", img1);
           $("#selected, #type, #city").show();
           $("#type").empty().append(typeButtonArray[randomType1]);
-          $("#1").attr("style", "outline:1px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
           selectedCity = 1;
           selectedType = 1;
-          $("#1").attr("style", "outline:1px solid white;");
-          $("#2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
+          $("#2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
           
        });
     
@@ -1141,11 +1141,11 @@ $(document).ready(function() {
           $("#clicked").attr("src", img2);
           $("#selected, #type, #city").show();
           $("#type").empty().append(typeButtonArray[randomType2]);
-          $("#2").attr("style", "outline:1px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
           selectedCity = 2;
           selectedType = 2;
-          $("#2").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#3").click(function() {
@@ -1154,8 +1154,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType3]);
           selectedCity = 3;
           selectedType = 3;
-          $("#3").attr("style", "outline:1px solid white;");
-          $("#1, #2, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#3").attr("style", "outline:1px solid black;");
+          $("#1, #2, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#4").click(function() {
@@ -1164,8 +1164,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType4]);
           selectedCity = 4;
           selectedType = 4;
-          $("#4").attr("style", "outline:1px solid white;");
-          $("#1, #3, #2, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#4").attr("style", "outline:1px solid black;");
+          $("#1, #3, #2, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
         
        });
     
@@ -1175,8 +1175,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType5]);
           selectedCity = 5;
           selectedType = 5;
-          $("#5").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#5").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#6").click(function() {
@@ -1185,8 +1185,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType6]);
           selectedCity = 6;
           selectedType = 6;
-          $("#6").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #5, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#6").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #5, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#7").click(function() {
@@ -1195,8 +1195,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType7]);
           selectedCity = 7;
           selectedType = 7;
-          $("#7").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #5, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#7").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #5, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#8").click(function() {
@@ -1205,8 +1205,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType8]);
           selectedCity = 8;
           selectedType = 8;
-          $("#8").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #5, #9, #10").attr("style", "outline:0px solid white;");
+          $("#8").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #5, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#9").click(function() {
@@ -1215,8 +1215,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType9]);
           selectedCity = 9;
           selectedType = 9;
-          $("#9").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #8, #5, #10").attr("style", "outline:0px solid white;");
+          $("#9").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #8, #5, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#10").click(function() {
@@ -1225,8 +1225,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType10]);
           selectedCity = 10;
           selectedType = 10;
-          $("#10").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #8, #9, #5").attr("style", "outline:0px solid white;");
+          $("#10").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #8, #9, #5").attr("style", "outline:0px solid black;");
        });
             
             if(selectedCity==1){
@@ -1681,7 +1681,7 @@ $(document).ready(function() {
               
               
             }
-            $("#1, #2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+            $("#1, #2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
             $("#selected, #type, #city").hide();
         });
     
@@ -1698,150 +1698,150 @@ $(document).ready(function() {
     $("#1").hover(function() {
           $("#hover12").show();
           $("#hover12").attr("src", img1);
-          $("#1").attr("style", "outline:1px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
           $("#hover3, #hover45, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity1]);
        },
     function(){
         if(selectedCity==1){
-          $("#1").attr("style", "outline:1px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
         } else {
-          $("#1").attr("style", "outline:0px solid white;");  
+          $("#1").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#2").hover(function() {
           $("#hover12").show();
           $("#hover12").attr("src", img2);
-          $("#2").attr("style", "outline:1px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
           $("#hover3, #hover45, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity2]);
        },
     function(){
           if(selectedCity==2){
-          $("#2").attr("style", "outline:1px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
         } else {
-          $("#2").attr("style", "outline:0px solid white;");  
+          $("#2").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#3").hover(function() {
           $("#hover3").show();
           $("#hover3").attr("src", img3);
-          $("#3").attr("style", "outline:1px solid white;");
+          $("#3").attr("style", "outline:1px solid black;");
           $("#hover12, #hover45, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity3]);
        },
     function(){
           if(selectedCity==3){
-          $("#3").attr("style", "outline:1px solid white;");
+          $("#3").attr("style", "outline:1px solid black;");
         } else {
-          $("#3").attr("style", "outline:0px solid white;");  
+          $("#3").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#4").hover(function() {
           $("#hover45").show();
           $("#hover45").attr("src", img4);
-          $("#4").attr("style", "outline:1px solid white;");
+          $("#4").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity4]);
        },
     function(){
           if(selectedCity==4){
-          $("#4").attr("style", "outline:1px solid white;");
+          $("#4").attr("style", "outline:1px solid black;");
         } else {
-          $("#4").attr("style", "outline:0px solid white;");  
+          $("#4").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#5").hover(function() {
           $("#hover45").show();
           $("#hover45").attr("src", img5);
-          $("#5").attr("style", "outline:1px solid white;");
+          $("#5").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover67, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity5]);
        },
     function(){
           if(selectedCity==5){
-          $("#5").attr("style", "outline:1px solid white;");
+          $("#5").attr("style", "outline:1px solid black;");
         } else {
-          $("#5").attr("style", "outline:0px solid white;");  
+          $("#5").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#6").hover(function() {
           $("#hover67").show();
           $("#hover67").attr("src", img6);
-          $("#6").attr("style", "outline:1px solid white;");
+          $("#6").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity6]);
        },
     function(){
           if(selectedCity==6){
-          $("#6").attr("style", "outline:1px solid white;");
+          $("#6").attr("style", "outline:1px solid black;");
         } else {
-          $("#6").attr("style", "outline:0px solid white;");  
+          $("#6").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#7").hover(function() {
           $("#hover67").show();
           $("#hover67").attr("src", img7);
-          $("#7").attr("style", "outline:1px solid white;");
+          $("#7").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover8, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity7]);
        },
     function(){
           if(selectedCity==7){
-          $("#7").attr("style", "outline:1px solid white;");
+          $("#7").attr("style", "outline:1px solid black;");
         } else {
-          $("#7").attr("style", "outline:0px solid white;");  
+          $("#7").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#8").hover(function() {
           $("#hover8").show();
           $("#hover8").attr("src", img8);
-          $("#8").attr("style", "outline:1px solid white;");
+          $("#8").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover67, #hover910").hide();
           $("#location").empty().append(cityNameArray[randomCity8]);
        },
     function(){
           if(selectedCity==8){
-          $("#8").attr("style", "outline:1px solid white;");
+          $("#8").attr("style", "outline:1px solid black;");
         } else {
-          $("#8").attr("style", "outline:0px solid white;");  
+          $("#8").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#9").hover(function() {
           $("#hover910").show();
           $("#hover910").attr("src", img9);
-          $("#9").attr("style", "outline:1px solid white;");
+          $("#9").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover67, #hover8").hide();
           $("#location").empty().append(cityNameArray[randomCity9]);
        },
     function(){
           if(selectedCity==9){
-          $("#9").attr("style", "outline:1px solid white;");
+          $("#9").attr("style", "outline:1px solid black;");
         } else {
-          $("#9").attr("style", "outline:0px solid white;");  
+          $("#9").attr("style", "outline:0px solid black;");  
         }
     });
     
     $("#10").hover(function() {
           $("#hover910").show();
           $("#hover910").attr("src", img10);
-          $("#10").attr("style", "outline:1px solid white;");
+          $("#10").attr("style", "outline:1px solid black;");
           $("#hover12, #hover3, #hover45, #hover67, #hover8").hide();
           $("#location").empty().append(cityNameArray[randomCity10]);
        },
     function(){
           if(selectedCity==10){
-          $("#10").attr("style", "outline:1px solid white;");
+          $("#10").attr("style", "outline:1px solid black;");
         } else {
-          $("#10").attr("style", "outline:0px solid white;");  
+          $("#10").attr("style", "outline:0px solid black;");  
         }
     });
     
@@ -1849,18 +1849,18 @@ $(document).ready(function() {
         
     $(".left, .right").click(function() {
           $("#selected, #type, #city").hide();
-          $("#1, #2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#1, #2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
        });
     
     $("#1").click(function() {
           $("#clicked").attr("src", img1);
           $("#selected, #type, #city").show();
           $("#type").empty().append(typeButtonArray[randomType1]);
-          $("#1").attr("style", "outline:1px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
           selectedCity = 1;
           selectedType = 1;
-          $("#1").attr("style", "outline:1px solid white;");
-          $("#2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#1").attr("style", "outline:1px solid black;");
+          $("#2, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
           if(outOfTen==1){
                 savedVerb1 = verbArray[randomType1];
                 savedCity1 = endcityNameArray[randomCity1];
@@ -1917,11 +1917,11 @@ $(document).ready(function() {
           $("#clicked").attr("src", img2);
           $("#selected, #type, #city").show();
           $("#type").empty().append(typeButtonArray[randomType2]);
-          $("#2").attr("style", "outline:1px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
           selectedCity = 2;
           selectedType = 2;
-          $("#2").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#2").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
           if(outOfTen==1){
                 savedVerb1 = verbArray[randomType2];
                 savedCity1 = endcityNameArray[randomCity2];
@@ -1979,8 +1979,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType3]);
           selectedCity = 3;
           selectedType = 3;
-          $("#3").attr("style", "outline:1px solid white;");
-          $("#1, #2, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#3").attr("style", "outline:1px solid black;");
+          $("#1, #2, #4, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
           if(outOfTen==1){
                 savedVerb1 = verbArray[randomType3];
                 savedCity1 = endcityNameArray[randomCity3];
@@ -2038,8 +2038,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType4]);
           selectedCity = 4;
           selectedType = 4;
-          $("#4").attr("style", "outline:1px solid white;");
-          $("#1, #3, #2, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#4").attr("style", "outline:1px solid black;");
+          $("#1, #3, #2, #5, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
           if(outOfTen==1){
                 savedVerb1 = verbArray[randomType4];
                 savedCity1 = endcityNameArray[randomCity4];
@@ -2097,8 +2097,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType5]);
           selectedCity = 5;
           selectedType = 5;
-          $("#5").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#5").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
           if(outOfTen==1){
                 savedVerb1 = verbArray[randomType5];
                 savedCity1 = endcityNameArray[randomCity5];
@@ -2156,8 +2156,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType6]);
           selectedCity = 6;
           selectedType = 6;
-          $("#6").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #5, #7, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#6").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #5, #7, #8, #9, #10").attr("style", "outline:0px solid black;");
           if(outOfTen==1){
                 savedVerb1 = verbArray[randomType6];
                 savedCity1 = endcityNameArray[randomCity6];
@@ -2215,8 +2215,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType7]);
           selectedCity = 7;
           selectedType = 7;
-          $("#7").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #5, #8, #9, #10").attr("style", "outline:0px solid white;");
+          $("#7").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #5, #8, #9, #10").attr("style", "outline:0px solid black;");
           if(outOfTen==1){
                 savedVerb1 = verbArray[randomType7];
                 savedCity1 = endcityNameArray[randomCity7];
@@ -2274,8 +2274,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType8]);
           selectedCity = 8;
           selectedType = 8;
-          $("#8").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #5, #9, #10").attr("style", "outline:0px solid white;");
+          $("#8").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #5, #9, #10").attr("style", "outline:0px solid black;");
           if(outOfTen==1){
                 savedVerb1 = verbArray[randomType8];
                 savedCity1 = endcityNameArray[randomCity8];
@@ -2333,8 +2333,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType9]);
           selectedCity = 9;
           selectedType = 9;
-          $("#9").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #8, #5, #10").attr("style", "outline:0px solid white;");
+          $("#9").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #8, #5, #10").attr("style", "outline:0px solid black;");
           if(outOfTen==1){
                 savedVerb1 = verbArray[randomType9];
                 savedCity1 = endcityNameArray[randomCity9];
@@ -2392,8 +2392,8 @@ $(document).ready(function() {
           $("#type").empty().append(typeButtonArray[randomType10]);
           selectedCity = 10;
           selectedType = 10;
-          $("#10").attr("style", "outline:1px solid white;");
-          $("#1, #3, #4, #2, #6, #7, #8, #9, #5").attr("style", "outline:0px solid white;");
+          $("#10").attr("style", "outline:1px solid black;");
+          $("#1, #3, #4, #2, #6, #7, #8, #9, #5").attr("style", "outline:0px solid black;");
           if(outOfTen==1){
                 savedVerb1 = verbArray[randomType10];
                 savedCity1 = endcityNameArray[randomCity10];

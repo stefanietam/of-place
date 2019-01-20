@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:black;
+    background-color:white;
     margin: 0px;
     height: 100%;
     text-align: center;
@@ -15,7 +15,7 @@ body {
     top: 13px;
     left: 45.95%;
     font-size: 1.25vw;
-    color:white;
+    color:black;
     text-align: center;
     font-family: neuehaas;
     letter-spacing: 0.1vh;
@@ -24,7 +24,7 @@ body {
 .footer, #restart {
 
     font-family: neuehaas;
-    color: white;
+    color: black;
     font-size: 1.25vw;
 }
 
@@ -68,6 +68,12 @@ img, #type, #city:hover{
     cursor:pointer;
 }
 
+
+#type, #city{
+    border-bottom: solid 1px black;
+}
+
+
 .images {
     display:grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr;
@@ -82,7 +88,7 @@ img, #type, #city:hover{
     position:absolute;
     left:0px;
     top:0px;
-    outline: 1px solid white;
+    outline: 1px solid black;
 }
 
 #hover12, #hover3, #hover45, #hover67, #hover8, #hover910 {
@@ -93,7 +99,7 @@ img, #type, #city:hover{
 
 .middle{
     font-family: neuehaas;
-    color: white;
+    color: black;
     font-size: 1.25vw;
     align-self: center;
     justify-content: center;
@@ -129,7 +135,7 @@ img, #type, #city:hover{
 }
 
 #bigText{
-    color:white;
+    color:black;
     font-family: neuehaas;
     font-size: 1.25vw;
     width:25%;
@@ -142,8 +148,8 @@ img, #type, #city:hover{
 }
 
 a{
-    color:white;
-    background-color: black;
+    color:black;
+    background-color: none;
     text-decoration: none;
 }
 
@@ -164,7 +170,7 @@ a{
 
 #titlebig {
     position:absolute;
-    color:white;
+    color:black;
     font-family: neuehaas;
     font-size: 9.5vw;
     width:100%;
@@ -174,7 +180,7 @@ a{
 }
 
 .homeWrap{
-    color:white;
+    color:black;
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows:33vh 33vh 33vh;
@@ -198,7 +204,7 @@ a{
 
 #bigTextVerb1 {
     position:absolute;
-    color:white;
+    color:black;
     font-family: neuehaas;
     font-size: 5vw;
     width:100%;
@@ -210,7 +216,7 @@ a{
 
 #endtop{
     position:absolute;
-    color:white;
+    color:black;
     font-family: neuehaas;
     font-size: 1.25vw;
     width: 40%;
@@ -221,7 +227,7 @@ a{
 
 #endbottom{
     position:absolute;
-    color:white;
+    color:black;
     font-family: neuehaas;
     font-size: 1.25vw;
     width: 30%;
@@ -231,16 +237,18 @@ a{
 }
 
 .infobits{
-    color:white;
+    color:black;
     font-family: neuehaas;
-    font-size: 0.75vw;
+    font-size: 1.25vw;
     position:fixed;
-    top:13px;
-    
+}
+
+.infobits:hover{
+    border-bottom: solid 1px black;
 }
 
 .downloadbits{
-    color:white;
+    color:black;
     font-family: neuehaas;
     font-size: 0.75vw;
     position:fixed;
@@ -250,22 +258,27 @@ a{
 }
 
 #aboutProj{
+    top: 13px;
     right: 17px;
     text-align: left;
 }
 
 #aboutMe{
-    right: 8.2vw;
+    top: 13px;
+    left: 17px;
     text-align: right;
 }
 
 #contribute{
-    left: 6.5vw;
+    bottom:17px;
+    right: 17px;
     text-align: right;
 }
 
 #book{
     left:17px;
+    bottom:17px;
+    background: none;
 }
 
 #exhibition{
